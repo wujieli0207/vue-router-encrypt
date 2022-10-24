@@ -9,10 +9,14 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "crypto-js": "^4.1.1",
+    "lodash-es": "^4.17.21",
     "vue": "^3.2.41",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/lodash-es": "^4.17.6",
     "@types/node": "^16.11.68",
     "@vitejs/plugin-vue": "^3.1.2",
     "@vue/tsconfig": "^0.1.3",

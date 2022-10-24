@@ -1,7 +1,9 @@
 <template>
   <h3>routerA 携带的参数：</h3>
   {{ query }}
-  <button @click="goHome">返回 home</button>
+  <p>
+    <button @click="goHome">返回 home</button>
+  </p>
 </template>
 
 <script lang="ts" setup>
